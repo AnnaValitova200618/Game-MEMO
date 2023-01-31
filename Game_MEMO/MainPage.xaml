@@ -1,0 +1,21 @@
+﻿<Page x:Class="Game_MEMO.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Game_MEMO"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage">
+
+    <Grid>
+        <Border Background="#C5FFFFFF" Height="214" CornerRadius="15,15,15,15" Width="775">
+             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock FontSize="30" Text="Добро пожаловать в самую ителлектуальную игру этого года - MEMO!" TextWrapping="Wrap" TextAlignment="Center" Margin="1,1,1,1"/>
+            <TextBlock FontSize="25" Text="Начать игру?" TextAlignment="Center" Padding="1,1,1,1"/>
+            <Button Command="{Binding OpenGame}" Content="НАЧАТЬ ИГРУ!!!" HorizontalAlignment="Center" Height="40" Width="160" Margin="0,40,0,0" FontSize="20" Background="#FF9DDFEB"/>
+        </StackPanel>
+        </Border>
+       
+    </Grid>
+</Page>
